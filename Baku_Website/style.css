@@ -1,0 +1,191 @@
+:root {
+    --main-colors--text-color: #2b2b2b;
+    --gradient-color-1: #61a6f2;
+    --gradient-color-2: #8f6fdb;
+    --gradient-color-3: #ff5a5e;
+    --gradient-color-4: #f2c94c;
+    --other--light-grey: #fafafa;
+    --main-colors--primary: #4d6bfa;
+    --other--misty-rose: #ffdede;
+    --other--light-blue-bg: #f8f8fa;
+    --other--link-bg-grey: #f1f1f1;
+    --other--dim-grey: #c5c5c5;
+    --other--bg-grey: #d4d4d4;
+    --main-colors--secondary: #4353fa;
+    --other--notification-bg: #001b38;
+    --border-color: #333442;
+    --bg-color: #151723;
+    --font-size--h1-desktop-size: 85px;
+    --font-size--h1-tablet-size: 55px;
+    --main-colors--black: #000;
+    --main-colors--white: #fff;
+}
+
+.btn-gradiant {
+    background: linear-gradient(90deg, #61a6f2, #8f6fdb 50%, #ff5a5e);
+    border: none;
+    padding: 0.8rem 3rem;
+    color: white;
+    font-weight: 700;
+    font-size: 1rem;
+    /* Initial font size */
+}
+
+.icon {
+    background: linear-gradient(90deg, #61a6f2, #8f6fdb 50%, #ff5a5e);
+    border-radius: 50%;
+    height: 6rem;
+    width: 6rem;
+    display: flex;
+    justify-content: center;
+}
+
+.head h1 {
+    color: black;
+    font-weight: 500;
+}
+
+.head p {
+    color: grey;
+}
+
+.btn-dark {
+    padding: 12px 18px;
+    background-color: #181818;
+    transition: ease-in 0.5s;
+}
+
+.btn-dark :hover {
+    background-color: #f80000 !important;
+}
+
+.fs-1 {
+    font-size: 70px !important;
+}
+
+@media screen and (max-width:500px) {
+    .btn-dark {
+        padding: 5px 5px;
+    }
+    .head h1 {
+        font-size: 14px;
+        font-weight: 500;
+    }
+}
+
+@media screen and (max-width:1280px) {
+    #main-box {}
+}
+
+#main-box {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(252, 252, 252);
+    transform: translateY(-70%);
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    position: absolute;
+    opacity: 1;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+#main-box .h1 {
+    background: linear-gradient(90deg, #61a6f2, #8f6fdb 50%, #ff5a5e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 10rem;
+    /* Adjust font size as needed */
+    font-weight: bold;
+    /* transform: translateX(10%); */
+    background-color: rgb(212, 1, 1);
+    /* position: absolute; */
+    /* opacity: 1; */
+}
+
+#main-box .h2 {
+    background: linear-gradient(90deg, #61a6f2, #8f6fdb 50%, #ff5a5e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 10rem;
+    /* Adjust font size as needed */
+    font-weight: bold;
+    /* transform: translateX(50%); */
+    background-color: white;
+    /* position: absolute; */
+    /* opacity: 0; */
+}
+
+.mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100vh;
+    /* background-color: white; */
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.mobile-img {
+    width: 400px;
+    /* overflow: hidden; */
+}
+
+.mobile-container {
+    width: 100%;
+    /* Full width for responsiveness */
+    max-width: 400px;
+    /* Max width of the container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    z-index: 11;
+}
+
+.mobile-chat {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    object-position: center;
+    object-fit: 50% 10%;
+    height: 80%;
+    position: absolute;
+}
+
+.mobile-cover {
+    width: 400px;
+    position: absolute;
+    top: -3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* opacity: 0; */
+}
+
+.mobile .h1 {
+    background: linear-gradient(90deg, #61a6f2, #8f6fdb 50%, #ff5a5e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 13rem;
+    /* Adjust font size as needed */
+    font-weight: bold;
+    /* transform: translateX(50%); */
+}
+
+.mobile .h2 {
+    background: linear-gradient(90deg, #61a6f2, #8f6fdb 50%, #ff5a5e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 13rem;
+    /* Adjust font size as needed */
+    font-weight: bold;
+    /* transform: translateX(50%); */
+}
